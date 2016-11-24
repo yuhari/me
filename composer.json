@@ -1,0 +1,19 @@
+{
+    "name": "yuhari/me",
+    "description": "construct a 'me' app that you can load or unload the component, maybe this will be benefit for you .",
+    "authors": [
+        {
+            "name": "yuhari",
+            "email": "yuhari@126.com"
+        }
+    ],
+	"version" : "1.0.0" ,
+    "require": {
+    	
+    },
+    "autoload":{
+      "psr-4":{
+          "me\\":"src/"
+      }
+    }
+}
